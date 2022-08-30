@@ -1,0 +1,37 @@
+/\ ---------- V0.0.1 [Pré-Prod] ---------- /\
+
+    | A FAIRE |
+
+    • [ADD] - Mettre les liens sur le footer
+    • [ADD] - Crée le github
+    • [ADD] - Sauvegarder le niveau et la puissance de l'upgrade 1
+
+    | EN COURS |
+
+    | TERMINER |
+
+    • [REM] - Nettoyage des fichiers inutiles
+    • [REM] - Nettoyage du code (espaces, tabulations, etc.)
+    • [ADD] - Ajout des balise méta (description, author, etc.)
+    • [ADD] - Ajout d'une div pour clicker
+    • [ADD] - Ajout du score
+    • [ADD] - Ajout des cookie pour stocker les infos de la partie
+    • [ADD] - Ajout de la Navbar et du footer 
+    • [ADD] - Ajout du solde bancaire
+    • [ADD] - Ajout du prix sur l'upgrade 1
+    • [ADD] - Modification du prix par rapport à la puissance de l'upgrade 1 (prix * 2)
+    • [ADD] - Ajout de puissance sur le click
+    • [ADD] - Mise en place des elements de la page d'accueil
+    • [FIX] - Bug sur la partie "upgrade" 5 (on peut ce mettre en negatif)
+
+    | BUG |
+
+/\ ---------- V0.0.2 [Pré-Prod] ---------- /\
+
+    | A FAIRE |
+
+    | EN COURS |
+
+    | TERMINER |
+
+    | BUG |
