@@ -21,11 +21,13 @@
     • [FIX] - Bug sur la partie "upgrade" (on peut ce mettre en negatif)
     • [ADD] - Crée le github
     • [ADD] - Mettre les liens sur le footer
-    • [ADD] - Sauvegarder le niveau et la puissance de l'upgrade 1
+    • [ADD] - Sauvegarder la puissance de clicks
+    • [ADD] - Reset Account
+    • [ADD] - Ajouter la puissance de click
+    • [FIX] - Sauvegarder le prix de l'upgrade 1
+    • [ADD] - Ajouter la sauvegarde des niveaux des upgrades
 
     | BUG |
-
-    • [BUG] - Sauvegarder le prix de l'upgrade 1
 
 /\ ---------- V0.0.2 [Pré-Prod] ---------- /\
 
