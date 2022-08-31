@@ -6,7 +6,6 @@ import Footer from './components/footer/Footer';
 
 function App() {
 
-
   // compter et stocker le nombre de clics dans un cookie meme si on recharge la page
 
   const [cookies, setCookie] = useCookies(['clicks']);
@@ -14,25 +13,38 @@ function App() {
   const [clicks, setClicks] = useState(parseInt(cookies.clicks) || 0);
   const [pclick, setPClick] = useState(parseInt(cookies_pclick.pclick) || 1);
 
-  var result = cookies_pclick.pclick.split(';');
-  const [price_upgone, setPriceUpgone] = useState(result[1] || 100);
-
   const handleClick = () => {
     setClicks(clicks + pclick);
     setCookie('clicks', clicks + pclick);
   }
 
+  // Upgrade 1 : Ammélioration d'un click par ammélioration
+
+  if (document.cookie.indexOf('pclick') == -1) {
+  } else {
+    var prixclick_upg1 = cookies_pclick.pclick.split(',');
+    var prixclick_upg1 = prixclick_upg1[1];
+  }
+  const [price_upgone, setPriceUpgone] = useState(prixclick_upg1 || 100);
+  
   const upg_one = () => {
     if (clicks >= price_upgone) {
       setPClick(pclick + 1);
-      setCookie_pclick('pclick', pclick + 1 + ';' + price_upgone * 2);
+      setCookie_pclick('pclick', pclick + 1 + ',' + price_upgone * 2);
       setClicks(clicks - price_upgone);
       setCookie('clicks', clicks - price_upgone);
       setPriceUpgone(price_upgone * 2);
+      window.location.reload();
     } else {
       alert('Vous n\'avez pas assez de clics');
     }
   }
+
+  // Upgrade 2 : Auto-clicker par ammélioration
+
+  
+
+  // ---------- Return -----------
 
   return (
     <div className="App">
