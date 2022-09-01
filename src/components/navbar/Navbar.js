@@ -22,7 +22,6 @@ function Navbar() {
 
     return (
         <div className="Navbar">
-            <p>Navbar</p>
             <button onClick={reset}>Reset</button>
         </div>
     );

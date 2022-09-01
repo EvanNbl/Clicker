@@ -29,9 +29,12 @@
 
     | BUG |
 
-/\ ---------- V0.0.2 [Pré-Prod] ---------- /\
+/\ ---------- V0.0.2 [Pré-Prod] - Design ---------- /\
 
     | A FAIRE |
+
+    • [ADD] - Design de la navbar
+    • [ADD] - Ajout de parametre dans la navbar
 
     | EN COURS |
 

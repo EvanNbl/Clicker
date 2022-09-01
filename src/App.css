@@ -4,21 +4,71 @@
   padding: 0;
 }
 
-.Box_click{
-  background-color: rgb(0, 238, 255);
-  width: 200px;
+.Box_click {
+  width: 100px;
   height: 50px;
   border: 3px solid black;
-  margin-top: 10vh;
+  margin-top: 40vh;
 }
 
-.App_Content{
+.App_Content {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 
-.App_Content_Center, .App_Content_Right, .App_Content_Left{
-  border: 1px solid black;
-  width: 33.3%;
-  height: 85vh;
+.App_Content_Top {
+  width: 100%;
+  height: 10vh;
+  top: 10%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.App__Content_Top_Bd {
+  background-color: rgba(0, 0, 0, 0.205);
+  border-radius: 10px;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 120%;
+}
+
+.Money,
+.Force {
+  display: flex;
+}
+
+.count_money,
+.count_force {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.App_Content_Center {
+  width: 100%;
+  height: 60vh;
+  background-image: url("../public/import/img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.character {
+  width: 45%;
+  height: 50%;
+  margin-bottom: 10%;
+}
+
+.App_Content_Bottom {
+  width: 100%;
+  height: 30vh;
+  background-color: #5ec7b9;
 }
